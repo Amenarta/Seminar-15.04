@@ -6,7 +6,7 @@ void shownumber ()
     int firstnum = num/10;
     int secondnum = num%10;
 
-    Console.Write(num + "->");
+    Console.Write(num + "-> ");
 
     if (firstnum > secondnum)
     {
